@@ -1,0 +1,20 @@
+ul>ol{
+    color: blue;
+}
+
+ul ul{
+    color: hotpink;
+}
+/* 
+ol li{
+    background-color: lightblue;
+    color: green;
+} */
+
+li+li{
+    background-color: aqua;
+}
+/* // This is general Sibling */
+/* li~li{ 
+    background-color: aqua;
+} */

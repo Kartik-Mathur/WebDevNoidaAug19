@@ -1,0 +1,13 @@
+p[class="left"]{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+
+input[type="text"]{
+    background-color: lightyellow;
+}
+
+p[id="three"]{
+    background-color: orange;
+}

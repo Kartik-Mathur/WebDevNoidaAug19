@@ -1,0 +1,67 @@
+div{
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+
+div:hover{
+    background-color: tomato;
+    font-size: 24px;
+}
+
+div:active{
+    background-color: lightblue;
+    font-size: 14px;
+}
+
+input:focus{
+    background-color: lightyellow;
+}
+
+input:hover{
+    background-color: lightcoral;
+}
+
+div:empty{
+    background-color: lightgrey;
+}
+
+a:link{
+    color: brown;
+}
+a:visited{
+    color: grey;
+}
+
+/* li:last-child{
+    color: blue;
+    background-color: orange;
+} */
+span:only-child{
+    background-color: tomato;
+}
+
+/* li:nth-child(2n+3){
+    color: blue;
+    background-color: orange;    
+} */
+/* li:nth-of-type(2n+3){
+    color: blue;
+    background-color: orange;    
+} */
+li:nth-last-of-type(-2n+9){
+    color: blue;
+    background-color: orange;    
+}
+/* String Matching */
+[src^='http:']{
+    background-color: blue;
+}
+
+[src$='.pdf']{
+    background-color: green;
+}
+
+ul>*>li{
+    background-color: cornflowerblue;
+}

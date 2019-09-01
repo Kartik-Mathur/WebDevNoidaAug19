@@ -1,0 +1,43 @@
+/* h1{
+    color: chocolate;
+}
+p{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+
+.big{
+    font-size: 24px;
+}
+.small{
+    font-size: 14px;
+}
+
+#one{
+    background-color: blue;
+}
+
+#two{
+    background-color: lightgray;
+} */
+
+/* *{
+    background-color: lightgray;
+}
+ */
+
+#one{
+    background-color: green;
+}
+
+#one{
+    background-color: orange;
+}
