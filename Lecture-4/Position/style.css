@@ -1,0 +1,27 @@
+div{
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.color{
+    background: orange; 
+}
+body{
+    position: relative;
+    top:60px;
+}
+
+/* #seven{
+    position: fixed;
+    top: 50px;
+    left: 30px;
+} */
+
+#seven,
+#eleven,
+#fourteen,
+#seventeen{
+    position: sticky;
+    top: 40px;
+}
