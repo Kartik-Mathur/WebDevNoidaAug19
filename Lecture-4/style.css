@@ -1,0 +1,28 @@
+input:enabled{
+    background-color: lightyellow;
+}
+
+input:disabled{
+    background-color: lightgrey;
+}
+
+input:checked+label{
+    font-size: 30px;
+}
+
+/* p::first-letter{
+    font-size: 75px;
+    float: left;
+}
+
+p::first-line{
+    color: blueviolet;
+} */
+
+#para1::before{
+    content: '\260E';
+}
+
+#para1{
+    border: 1px solid black;
+}

@@ -1,0 +1,22 @@
+img{
+    float: left;
+    height: 100px;
+}
+
+.wrap{
+    border: 2px solid black;
+}
+
+#para{
+    float: left;
+    padding-left: 150px;
+    margin-top: -30px;
+}
+/* br{
+    clear: left;
+} */
+.wrap::after{
+    content:" ";
+    display: table;
+    clear: left;
+}

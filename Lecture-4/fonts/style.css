@@ -1,0 +1,13 @@
+#para1 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: italic; 
+    /* font: italic small-caps bold 24px Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    /* line-height: 0; */
+    text-shadow: 1px 1px 5px goldenrod,-5px -4px 2px rebeccapurple;
+}
+p{
+    font-style: oblique;
+    font-weight: 900;
+    font-size: 20px; 
+    font-variant: small-caps;
+} 

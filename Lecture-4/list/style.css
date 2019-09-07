@@ -1,0 +1,16 @@
+ul{
+    list-style-type: circle;
+
+    /* list-style-image: url('icon.png') */
+}
+/* ul li{
+    border: 1px solid black;
+    list-style-position: inside;
+} */
+ul li{
+    background-image: url('icon.png');
+    background-size:15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    border: 1px solid black;
+}
