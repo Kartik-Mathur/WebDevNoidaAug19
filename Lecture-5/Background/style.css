@@ -1,0 +1,16 @@
+.box{
+    font-size: 40px;
+    border: 2px solid black;
+    background-image: url('../Animations/dbz.jpg');
+    color: black;
+    font-weight: 900;
+    height: 500px;
+    overflow: scroll;
+    /* background-repeat: no-repeat; 
+    background-position: 100px 200px;
+     background-attachment: local;
+    background-color: blue; */
+    /* background: url('../Animations/Vegeta.jpeg') no-repeat,
+                url('../Animations/dbz.jpg') no-repeat; */
+    background-size: contain;
+}

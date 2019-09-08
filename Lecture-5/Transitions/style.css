@@ -1,0 +1,49 @@
+body{
+    padding: 100px;
+}
+
+.vegeta{
+    height: 70px;
+    padding: 60px 40px;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+.wrap{
+    height: 200px;
+    width: 150px;
+    background-color: gold;
+}
+
+.wrap:hover .vegeta{
+    transform: rotate(2turn) translate(50px,50px) scale(2);
+}
+
+
+
+
+/* .wrap{
+    height: 200px;
+    width: 150px;
+    background-color: gold;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 3s;
+}
+
+.wrap:hover{
+    height: 400px;
+    width: 300px;
+    background-color: purple;
+    transition-property: all;
+    transition-duration: 3s;
+
+} */
+
+
+
+
+/* .wrap:hover .vegeta{
+    transform: scale(2);
+    transform: skewY(45deg);
+    transform: translateY(40px);
+} */
