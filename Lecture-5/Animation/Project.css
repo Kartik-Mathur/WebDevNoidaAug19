@@ -1,0 +1,18 @@
+body{
+    background: rgb(77, 107, 145) url(../Animations/Space.png) repeat-x 100px 15%;
+}
+
+.r1{
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    transform: rotate(45deg);
+}
+
+.cody{
+    height: 150px;
+    position: absolute;
+    top:350px;
+    left: -15%;
+}
