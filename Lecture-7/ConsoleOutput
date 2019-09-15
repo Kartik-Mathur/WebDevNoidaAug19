@@ -1,0 +1,52 @@
+class person{
+    public:
+        int age;
+        char* name;
+        int income;
+}
+
+person p;
+p.age
+
+1 == 1
+true
+1 == '1'
+true
+1 === '1'
+false
+0 == []
+true
+0 == '\t'
+true
+0 == '\n'
+true
+'\t' == '\n'
+false
+[] == '\t'
+false
+
+
+[] + {}
+"[object Object]"
+{}+[]
+0
++[]
+0
++'1'
+1
++'11'
+11
++'asdasd'
+NaN
+typeof [10,20]
+"object"
+typeof {a:10}
+"object"
++[[[[]]]]
+0
+[].toString()
+""
+[10,20].toString()
+"10,20"
+[[],[]].toString()
+","
