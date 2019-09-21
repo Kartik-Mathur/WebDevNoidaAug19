@@ -1,0 +1,81 @@
+c.k
+1
+c.l
+"Hello"
+c.__proto__
+Object {  }
+
+c.__proto__.__proto__
+Object { k: 1, l: "Hello", m: true }
+
+b.k++;
+1
+a
+Object { k: 1, l: "Hello", m: true }
+
+b
+Object { k: 2 }
+
+c.__proto__
+Object { k: 2 }
+
+c.__proto__.__proto__
+Object { k: 1, l: "Hello", m: true }
+
+b.k++;
+1
+b
+Object { k: 2 }
+
+a
+Object { k: 1, l: "Hello", m: true }
+
+c.k
+2
+
+
+c.__proto__ == b
+true
+c.__proto__.__proto__ == a
+true
+a.__proto__ == Object.prototype
+true
+let b = true
+SyntaxError: redeclaration of let b
+debugger eval code:1:1
+b = true
+true
+b.__proto__
+Boolean { false }
+
+b.__proto__.__proto__
+Object { … }
+
+b = 10
+10
+b.__proto__
+Number { 0 }
+
+b.__proto__.__proto__
+Object { … }
+
+b ='Hello'
+"Hello"
+b.__proto__
+String { "" }
+
+b.__proto__.__proto__
+Object { … }
+
+f.__proto__ == Function.prototype
+true
+typeof Object
+"function"
+typeof Number
+"function"
+typeof String
+"function"
+f.toString()
+"function f(){
+    console.log('Hello');
+}"
