@@ -21,8 +21,13 @@ else{
     console.log('B doesnot has K');
 }
 
-
 function f(){
-    console.log('Hello');
+    // console.log('Hello');
+    return 1;
 }
 
+let n = Number('10.11');
+console.log(n);
+
+n = Boolean(10);
+console.log(n);
