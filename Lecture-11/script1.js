@@ -12,12 +12,26 @@ $(document.body)
                         .text($('#newtask').val())
                         .append(
                             $('<button>').text('❌')
+                                .click((ev)=>{
+                                   $(ev.target).parent().remove()
+                                })
                         )
                         .append(
                             $('<button>').text('↑').attr('class','btn-up')
+                                .click((ev)=>{
+                                    // console.log($(ev.target).parent().prev())
+                                    $(ev.target).parent().insertBefore(
+                                        $(ev.target).parent().prev()
+                                    )
+                                })
                         )
                         .append(
                             $('<button>').text('↓').attr('class','btn-down')
+                                .click((ev)=>{
+                                    $(ev.target).parent().insertAfter(
+                                        $(ev.target).parent().next()   
+                                    )
+                                })
                         )
                 )
                 
