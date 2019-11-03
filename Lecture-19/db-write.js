@@ -1,6 +1,5 @@
 const sqlite=require('sqlite3')
 const DB_PATH = __dirname + '/test.db' 
-
 const db = new sqlite.Database(DB_PATH)
 db.serialize(()=>{
     db.run(
@@ -14,5 +13,4 @@ db.serialize(()=>{
     db.run(
         `INSERT INTO tasks VALUES(3,'Some other task',false)`
     )
-
 })

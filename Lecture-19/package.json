@@ -1,0 +1,15 @@
+{
+  "name": "lecture-19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db-read.js",
+  "dependencies": {
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
