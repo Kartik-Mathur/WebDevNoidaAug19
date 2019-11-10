@@ -8,11 +8,21 @@ const io = socketio(server)
 
 app.use('/',express.static(__dirname+'/public')) 
 
+let idUserMap = {}
+
 io.on('connection',(socket)=>{
     console.log('Connected '+socket.id) 
     socket.on('chat',(data)=>{
         console.log(socket.id+' says '+data.msg) 
-        socket.emit('chat_recieved') 
+        io.emit('chat_recieved',{
+            username:idUserMap[socket.id],
+            msg:data.msg 
+        }) 
+    })
+
+    socket.on('login',(data)=>{
+        idUserMap[socket.id] = data.username
+        socket.emit('loggedin') 
     })
 })
 
