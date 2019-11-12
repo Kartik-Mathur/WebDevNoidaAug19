@@ -9,6 +9,7 @@ const io = socketio(server)
 app.use('/',express.static(__dirname+'/public')) 
 
 let idUserMap = {}
+let UserIdMap = {}
 
 io.on('connection',(socket)=>{
     console.log('Connected '+socket.id) 
