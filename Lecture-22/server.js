@@ -26,7 +26,7 @@ app.get('/',(req,res)=>{
     res.redirect('login') 
 })
 
-db.sync().then(()=>{
+db.sync({alter:true}).then(()=>{ 
     app.listen(4433,()=>{
         console.log('http://localhost:4433')
     })

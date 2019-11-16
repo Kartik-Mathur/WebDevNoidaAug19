@@ -12,11 +12,17 @@ const Users = db.define('user',{
     },
     password:{
         type:Sequelize.STRING(40),
-        allowNull:false
     },
     email:{
         type:Sequelize.STRING(50)
+    },
+    fbId:{
+        type:Sequelize.STRING(30)
+    },
+    fbToken:{
+        type:Sequelize.TEXT
     }
+
 })
 
 module.exports = {
