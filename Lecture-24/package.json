@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests",
-    "cover":"nyc --reporter=html mocha tests"
+    "test": "mocha",
+    "cover": "nyc --reporter=html mocha"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "axios": "^0.19.0",
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
     "nyc": "^14.1.1"
